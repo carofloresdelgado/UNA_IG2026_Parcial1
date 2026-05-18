@@ -78,4 +78,143 @@ nav ul li a{
     list-style: none;
     }
 
- 
+    /*BANNER*/
+    #banner {
+       
+        background: url(../img/Recurso2-100.jpg);
+    }
+ #banner .contenedor{
+    text-align: center; 
+    width: 100%;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #d5ecf3a8;
+ }
+#banner h1 {
+    margin-bottom: 1rem;
+    color: #073141;
+    font-size: 3rem;
+
+}
+
+#banner h2 {
+    margin-bottom: 1rem;
+    color: #277A8C;
+    font-size: 1.8rem;
+}
+
+#banner blockquote{
+    color: #073141;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/*SECTION INDEX*/
+.arte .contenedor{
+    background-color: #277A8C;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    
+}
+
+.arte .contenedor h3{
+margin: 2rem;
+text-align: center;
+font-size: 1.5rem;
+}
+
+.arte .contenido{
+    display: flex;
+   flex-direction: column-reverse;
+
+}
+
+.arte .contenido p{
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+.arte .contenedor img{
+    width: 40%;
+    margin-left: 20rem;
+    margin-bottom: 2rem;
+    
+    
+}
+
+/*SECTION CRITICA*/
+
+.arte .contenedor h1,h2{
+margin: 2rem;
+text-align: center;
+font-size: 1.5rem;
+}
+
+/*SECTION OBRAS*/
+
+.artedigital .contenedor{
+    background-color: #D5ECF3;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+.artedigital .contenedor h1{
+margin: 2rem;
+text-align: center;
+font-size: 2rem;
+color: #073141;
+}
+
+.artedigital .contenedor p{
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+/*VIDEO*/
+
+#video{
+    margin-left: 30rem;
+}
+
+/*TITULO*/
+
+#titulo{
+    background-color: #D5ECF3;
+    margin: 10rem;
+    padding: 0.2rem;
+    color: #073141;
+    
+}
+
+#titulo h2{
+    font-size: 2rem;
+}
+
+/*PASTILLAS*/
+
+#pastillas ul {
+    list-style-type: none; 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 2rem; 
+    padding: 0; 
+}
+
+#pastillas ul li {
+    box-sizing: border-box; 
+    width: 30%;  
+    background-color: #D5ECF3; 
+    padding: 1.5rem; 
+    text-align: center; 
+    margin-bottom: 2rem;
+}
+
+#pastillas ul li img {
+    width: 100%; 
+    height: auto; 
+    margin-bottom: 1rem; 
+}
